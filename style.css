@@ -1,0 +1,386 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2rem;
+}
+.section-title {
+	font-size: 3rem;
+	margin-bottom: 60px;
+}
+.logo img{
+	width: 120px;
+	height: 50px;
+}
+.logo {
+	font-weight: 900;
+	font-size: 2rem;
+        font-family: Arial,  
+            Helvetica, sans-serif; 
+        background: linear-gradient( 
+            to right, #f8176d, #ff6b08, 
+             #eb15eb, #eedd44); 
+        -webkit-text-fill-color: transparent; 
+        -webkit-background-clip: text; 
+}
+.nav-item {
+	margin: 0 20px;
+}
+
+#main {
+	background: url("mainimg.png");
+	background-size: cover;
+	height: 120vh;
+}
+.header-main {
+	margin-top: 280px;
+}
+.header-info {
+	font-weight: 380;
+	font-size: 3rem;
+	color: #fff;
+}
+.btn-outline-light {
+	margin-left: 20px;
+}
+.btn-space {
+	margin-top: 20px;
+}
+
+.info-width {
+	width: 90%;
+	font-size: 1.1rem;
+	text-align: justify;
+}
+.overview{
+	margin-bottom: 30px;
+}
+.overview-icon {
+	font-size: 3rem;
+	color: #5a34fc;
+}
+.overview-row {
+	margin-top: 3rem;
+}
+.overview-header {
+	font-weight: 500;
+	color: #002864;
+}
+.overview-icon, .overview-header, .info-width {
+	padding: 1rem 0;
+}
+
+#testimonials {
+	background-color: rgb(0, 0, 87);
+	margin-top: 60px;
+	padding: 60px 0;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+.carousel-item h3 {
+	font-size: 2.5rem;
+}
+.design{
+	width: 100px;
+	height: 80px;
+}
+#pricing {
+	margin-top: 20px;
+	padding: 100px 0;
+}
+.pricing-title {
+	margin-bottom: 100px;
+}
+.card {
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;	border-color: #5a34fc;
+	border-radius: 10px;
+}
+.card-body {
+	padding: 7% 0;
+}
+.card-title {
+	color: rgb(6, 154, 212) ;
+}
+.pricing-text {
+	color: #5a34fc;
+	font-size: 2rem;
+	font-weight: bold;
+	padding: 5% 0%;
+}
+.btn-block {
+	font-size: 1.5rem;
+}
+
+#cta {
+	background-color:  rgb(0, 0, 87);
+	padding: 7% 15%;
+	margin-top: 50px;
+}
+.cta-text {
+	font-size: 2.1rem;
+	color: #fff;
+}
+
+#footer {
+	height: 100px;
+	background-color:  rgb(0, 0, 87);
+}
+.footer-icon {
+	font-size: 2rem;
+	color: blue;
+	padding: 5% 3%;
+}
+
+@media only screen and (max-width: 768px) {
+
+	.iphone-mock {
+		display: none;
+	}
+	.card {
+		margin: 20px 0;
+	}
+	.header-info {
+		font-size: 2rem;
+	}
+	.btn-outline-light {
+		margin-left: 0px;
+	}
+	#footer {
+		height: 70px;
+	}
+
+}
+.delivery-and-payment-section {
+    background-color: white;
+}
+
+.delivery-and-payment-section-img {
+    width: 270px;
+}
+
+.delivery-and-payment-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+}
+
+.thanking-customers-section {
+    background-color: #d0b2001a;
+}
+
+.thanking-customers-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+}
+
+
+.wcu-section-heading {
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+	margin-top: 40px;
+}
+.wcu-section-heading1{
+	margin-bottom: 60px;
+    font-family: "Roboto";
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.wcu-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    text-align: center;
+	margin-bottom: 60px;
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f1f2f3;
+    border-radius: 16px;
+	box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.wcu-card-image {
+    width:50%;
+    height: 130px;
+}
+
+.wcu-card-title {
+    color: rgb(0, 0, 87);
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+.mt-100{
+	
+	margin-top:60px;
+}
+
+.carousel .carousel-indicators li{
+	
+	display:inline-block;
+	width:10px;
+	height:10px;
+	cursor:pointer;
+	border:1px solid rgb(0, 0, 87);
+	background: rgba(56, 142, 176, 0.187);
+	border-radius:2px;
+	
+	
+}
+.card-raised{
+	background-color: rgb(212, 232, 241);
+}
+
+.cardimage{
+	height: 280px;
+}
+.cardimage1{
+	height: 200px;
+}
+.buttonbox1 {
+    font-size: 1vw;
+    padding: 1vw;
+    color: #ffffff;
+    background: rgb(0, 0, 87);
+    border: 0;
+    position: relative;
+    padding-right: 1vw;
+}
+.buttonbox1:before {
+    content: '';
+    width: 3.2vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: white;
+    border: 1px solid rgb(0, 0, 87);
+}
+.buttonbox1:after {
+    content: '❯';
+    position: absolute;
+    right: 2vw;
+    color: rgb(0, 0, 87);
+}
+.containera {
+    text-align: center;
+    color: whitesmoke;
+	font-weight: bold;
+    width: 100%;
+    background: linear-gradient(
+      rgba(53, 53, 53, 0.934),
+      rgba(92, 92, 92, 0.884)
+    ),
+    url("formpic.png");
+    background-color: #4500e6;
+    background-size: cover;
+    display: grid;
+    align-content: center;
+	margin-top: 30px;
+}
+
+.main{
+    background-image: url("formpic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: relative;
+    padding: 75px 0px;
+}
+.form-box{
+    background-color: rgba(255, 255, 255, 0.025);
+    backdrop-filter: blur(30px);
+    border-radius: 20px;
+    border: 1px solid white;
+    margin-left: 18px;
+}
+.form-box input{
+    border-radius: 10px;
+}
+.form-box select{
+    border-radius: 10px;
+}
+.register-btn{
+    background-image: linear-gradient(to right, #11118b, #0f55f8 , #f88f0f);
+    border: none;
+    border-radius: 10px;
+    color: white;
+
+}
+.box input {
+    width: auto;
+}
+
+#hear {
+    margin-right: 10px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    width: 90%;
+    resize: none;
+    background: transparent;
+    border-radius: 6px;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+.button1 {
+    width: 60%;
+    padding: 6px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid whitesmoke;
+    transition: all 0.2s;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: #e65b00;
+    border-color: #e65b00;
+}
+
